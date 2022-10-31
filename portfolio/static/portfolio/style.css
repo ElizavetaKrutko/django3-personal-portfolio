@@ -1,4 +1,4 @@
-.home-wrapper {
+.page-wrapper {
     padding: 0 5%;
 }
 
@@ -7,14 +7,14 @@
     flex-direction: row; // Choose the main line (row - X, column - Y)
     justify-content: space-between; // aligns elements against main line
 */
-.home-wrapper_profile {
+.page-wrapper_profile {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 35px;
 }
 
-.home-wrapper_my-courses {
+.page-wrapper_my-courses {
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid gray;

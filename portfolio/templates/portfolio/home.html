@@ -1,7 +1,7 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
-    <div class="home-wrapper">
-        <div class="home-wrapper_profile">
+    <div class="page-wrapper">
+        <div class="page-wrapper_profile">
             <h1>Liza's portfolio</h1>
             {% load static %}
             <link rel="stylesheet" href="{% static 'portfolio/style.css' %}" >
@@ -11,7 +11,7 @@
 
         <h3>Completed courses</h3>
 
-        <div class="home-wrapper_my-courses">
+        <div class="page-wrapper_my-courses">
             {% for project in projects %}
             <div class="my-courses_course-card">
                 <div class="course-card_image-wrapper">
